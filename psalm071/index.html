@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Psalm 71</title>
+  <meta name="description" content="Orgelzetting van Psalm 71 met toevallige verhogingen die je aan en uit zet, transpositie en afspelen.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%99%AA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main>
+    <p class="crumb"><a href="../">Leonard de Ruijter</a></p>
+    <h1>Psalm 71</h1>
+    <p class="intro">
+      Orgelzetting van Leonard de Ruijter (2017), in E-frygisch.
+      De toevallige verhogingen in regel 4 (7e noot) en regel 5 (6e noot) staan klein boven de noot.
+      Zet ze aan of uit, kies een andere toonsoort of speel de zetting af.
+    </p>
+
+    <form class="controls" id="controls">
+      <label class="check">
+        <input type="checkbox" id="verhogingen" checked disabled>
+        Verhogingen tonen
+      </label>
+      <label class="field">
+        Toonsoort
+        <select id="toonsoort" disabled></select>
+      </label>
+      <button type="button" id="play" disabled>Afspelen</button>
+    </form>
+
+    <p class="status" id="status" role="status">Bladmuziek laden…</p>
+
+    <div class="score" id="score" role="img" aria-label="Bladmuziek van Psalm 71, wordt geladen"></div>
+  </main>
+</body>
+</html>

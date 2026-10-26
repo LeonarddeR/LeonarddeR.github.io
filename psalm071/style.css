@@ -1,0 +1,135 @@
+:root {
+  color-scheme: light dark;
+  --bg: #fbfaf7;
+  --ink: #1d1b18;
+  --muted: #5d584f;
+  --line: #d8d3c9;
+  --panel: #f2efe8;
+  --accent: #a8321f;
+  --focus: #1f5fbf;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17171b;
+    --ink: #ebe7df;
+    --muted: #a9a398;
+    --line: #3b3b42;
+    --panel: #212127;
+    --accent: #ff8f73;
+    --focus: #8fb8ff;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 1rem/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+a {
+  color: inherit;
+}
+
+.crumb {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.intro {
+  max-width: 65ch;
+  margin: 0 0 24px;
+  color: var(--muted);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  padding: 12px 16px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.check,
+.field {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+}
+
+.field select {
+  min-width: 0;
+}
+
+input[type="checkbox"] {
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: var(--accent);
+}
+
+select,
+button {
+  font: inherit;
+  color: inherit;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+button {
+  min-width: 7.5rem;
+  cursor: pointer;
+}
+
+button:disabled,
+select:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.status {
+  min-height: 1.5em;
+  margin: 12px 0;
+  color: var(--muted);
+}
+
+.score svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  color: var(--ink);
+  fill: currentColor;
+}
+
+.score g.playing {
+  color: var(--accent);
+  fill: var(--accent);
+}

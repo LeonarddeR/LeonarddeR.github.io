@@ -14,14 +14,14 @@
       </fileDesc>
       <encodingDesc xml:id="eutcpks">
          <appInfo xml:id="a91eq50">
-            <application xml:id="afl4qzp" isodate="2026-10-26T19:24:32" version="6.3.0[undefined]">
+            <application xml:id="afl4qzp" isodate="2026-10-26T19:37:16" version="6.3.0[undefined]">
                <name xml:id="npu1tmq">Verovio</name>
                <p xml:id="p1vs72p6">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change isodate="2026-10-26T19:24:32">
+         <change isodate="2026-10-26T19:37:16">
             <changeDesc>
                <p>Transposed up 2 semitones by Verovio.</p>
             </changeDesc>
@@ -1363,7 +1363,7 @@
                               <note xml:id="ubijvni" dur.ppq="1" dur="4" oct="3" pname="c" stem.dir="up" accid.ges="n" />
                            </layer>
                            <layer xml:id="w1ibgi3b" n="2">
-                              <note xml:id="x9wagdk" dur.ppq="2" dur="2" oct="3" pname="d" stem.dir="down">
+                              <note xml:id="x9wagdk" dur.ppq="2" dur="2" oct="2" pname="d" stem.dir="down">
                                  <accid xml:id="w1mprfor" accid.ges="n" />
                               </note>
                            </layer>
@@ -1389,7 +1389,7 @@
                               </note>
                            </layer>
                            <layer xml:id="lzpaq1a" n="2">
-                              <note xml:id="m1qwskqh" dur.ppq="2" dur="2" oct="3" pname="e" stem.dir="down">
+                              <note xml:id="m1qwskqh" dur.ppq="2" dur="2" oct="2" pname="e" stem.dir="down">
                                  <accid xml:id="z14ng4vh" accid.ges="n" />
                               </note>
                            </layer>
@@ -1422,7 +1422,7 @@
                               </note>
                            </layer>
                            <layer xml:id="a15mxpv6" n="2">
-                              <note xml:id="bbpe5pb" dur.ppq="2" dur="2" oct="3" pname="d" stem.dir="down">
+                              <note xml:id="bbpe5pb" dur.ppq="2" dur="2" oct="2" pname="d" stem.dir="down">
                                  <accid xml:id="d2kvt3d" accid.ges="n" />
                               </note>
                            </layer>
